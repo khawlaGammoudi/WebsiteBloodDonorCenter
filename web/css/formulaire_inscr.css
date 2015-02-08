@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 avr. 2014, 16:34:13
+    Author     : Dhekra_PC
+*/
+
+
+
+                      form#inscrire button {
+                      background: #384313;
+                      border: none;
+                      -moz-border-radius: 20px;
+                      -webkit-border-radius: 20px;
+                      -khtml-border-radius: 20px;
+                      border-radius: 20px;
+                      color: #ffffff;
+                      display: block;
+                      //font: 10px Georgia, "Times New Roman", Times, serif;
+                      letter-spacing: 1px;
+                      margin: auto;
+                      padding: 7px 25px;
+                      text-shadow: 0 1px 1px #000000;
+                      text-transform: uppercase;
+                    }
+                    form#inscrire button:hover {
+                      background: #1e2506;
+                      cursor: pointer;
+                    }
+                    form#inscrire  input:not([type=radio]),
+                    form#inscrire textarea {
+                      background: #ffffff;
+                      border: none;
+                      -moz-border-radius: 3px;
+                      -webkit-border-radius: 3px;
+                      -khtml-border-radius: 3px;
+                      border-radius: 3px;
+                      //font: italic 10px Georgia, "Times New Roman", Times, serif;
+                      outline: none;
+                      padding: 5px;
+                      //width: 100px;
+                    }
+                    form#inscrire input:not([type=submit]):focus,
+                    form#inscrire textarea:focus {
+                      background: #eaeaea;
+                    }
+                    form#inscrire input[type=radio] {
+                      float: left;
+                      margin-right: 5px;
+                    }
+                    form#inscrire label {
+                      float: left;
+                      //font-size: 8px;
+                     
+                    }
+                    form#inscrire fieldset fieldset label {
+                      background:none no-repeat left 50%;
+                      line-height: 20px;
+                      padding: 0 0 0 30px;
+                      width: auto;
+                    }
+                    
+                    form#inscrire label[for=amex] {
+                      background-image: url(amex.gif);
+                    }
+                   
+                    form#inscrire fieldset fieldset label:hover {
+                      cursor: pointer;
+                    }
+                    
+                    form#inscrire fieldset fieldset legend {
+                      color: #111111;
+                      //font-size: 10px;
+                      font-weight: normal;
+                      padding-bottom: 0;
+                    }
+                    form#inscrire > fieldset > legend:before {
+                      content: "etape " counter(fieldsets) " : ";
+                      counter-increment: fieldsets;
+                    }
+                    form#inscrire legend {
+                      color: #384313;
+                      //font-size: 10px;
+                      font-weight: bold;
+                      padding-bottom: 10px;
+                      text-shadow: 0 1px 1px #c0d576;
+                    }
+                    form#inscrire fieldset {
+                      border: none;
+                      margin-bottom: 10px;
+                    }
+                    form#inscrire fieldset:last-of-type {
+                      margin-bottom: 0;
+                    }
+                    form#inscrire {
+                      background: #9cbc2c;
+                      -moz-border-radius: 5px;
+                      -webkit-border-radius: 5px;
+                      border-radius: 5px;
+                      padding: 20px;
+                      width: 300px;
+                    }
+                    form#inscrire label{
+                        color:  #9cbc2c;
+                        font-size: 8px;
+                    }
